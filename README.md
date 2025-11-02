@@ -11,13 +11,14 @@ https://shreyarai7.github.io/EventVerse-TechFest-Portal/
 
 ---
 
-🎯 Project Purpose
+🎯 Project Purpose:
 
 Tech fests have multiple events and updates — often scattered across posters, chats, and announcements.
 EventVerse solves this by giving a clean, organized, and user-friendly hub for all fest information.
 
 
 ---
+
 
 ✨ Key Features
 
@@ -32,8 +33,8 @@ Feature	Description
 📱 Fully Responsive	Works on laptops, tablets & mobile
 
 
-
 ---
+
 
 🧠 Why EventVerse?
 
@@ -48,8 +49,8 @@ Builds excitement & engagement
 Saves organizers effort in communication
 
 
-
 ---
+
 
 🛠️ Tech Stack
 
@@ -58,7 +59,6 @@ Technology	Use
 HTML	Structure & content
 CSS	Styling & layout
 JavaScript	Interaction & form validation
-
 
 
 --- 
@@ -72,6 +72,14 @@ Admin dashboard for event updates
 Dark/Light theme support
 
 Event search & advanced filters
+
+
+---
+
+
+👥 Team Members:
+    Shreya Rai and Kartik Bissa
+
 
 ---
 
