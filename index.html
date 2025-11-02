@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventVerse — The Tech Frontier</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">EventVerse</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h2>The Tech Frontier</h2>
+      <p>December 10–12, 2025</p>
+      <p>Experience technology, creativity, and innovation like never before.</p>
+      <div class="buttons">
+        <a href="#events" class="btn" id="viewEventsBtn">View Events</a>
+        <a href="#contact" class="btn outline">Register Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <h2>About EventVerse</h2>
+    <p>
+      EventVerse is your gateway to the future. A three-day fest celebrating the
+      convergence of technology, imagination, and innovation — inspired by IIT Bombay's legendary Techfest.
+    </p>
+  </section>
+
+  <section id="events" class="events container">
+    <h2>Events</h2>
+    <div class="event-grid">
+      <div class="event-card">
+        <h3>CodeRush</h3>
+        <p>Fast-paced coding battle for the ultimate title.</p>
+        <span>Prize: ₹40,000</span>
+      </div>
+      <div class="event-card">
+        <h3>RoboWar</h3>
+        <p>Build and battle autonomous robots in the arena.</p>
+        <span>Prize: ₹50,000</span>
+      </div>
+      <div class="event-card">
+        <h3>LAN Battle</h3>
+        <p>4v4 gaming tournament — let the best squad win!</p>
+        <span>Prize: Gaming Gear</span>
+      </div>
+      <div class="event-card">
+        <h3>ML Foundations</h3>
+        <p>Hands-on workshop exploring core ML algorithms.</p>
+        <span>Certificate Provided</span>
+      </div>
+      <div class="event-card">
+        <h3>TechArt</h3>
+        <p>Digital art competition exploring futuristic creativity.</p>
+        <span>Prize: ₹15,000</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact container">
+    <h2>Contact & Registration</h2>
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+      <select id="eventSelect" required>
+        <option value="">Select Event</option>
+        <option>CodeRush</option>
+        <option>RoboWar</option>
+        <option>LAN Battle</option>
+        <option>ML Foundations</option>
+        <option>TechArt</option>
+      </select>
+      <button type="submit" class="btn">Submit</button>
+      <p id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 EventVerse | Built with passion for innovation</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
